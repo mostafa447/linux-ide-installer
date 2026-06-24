@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🛸 Linux IDE Installer
+# 🛸 Antigravity IDE Installer
 
 ![License](https://img.shields.io/badge/License-GPLv3-blue?style=for-the-badge&logo=gnu)
 ![Platform](https://img.shields.io/badge/Platform-Linux-orange?style=for-the-badge&logo=linux)
