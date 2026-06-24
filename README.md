@@ -71,6 +71,7 @@ sudo update-desktop-database /usr/share/applications
 
 ---
 
+
 ## License
 
-MIT
+This project is licensed under the **GNU General Public License v3.0**. See [LICENSE](LICENSE) for details.
