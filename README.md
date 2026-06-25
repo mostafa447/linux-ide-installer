@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🛸 Antigravity IDE Installer
+# 🐧 Antigravity IDE Installer
 
 ![License](https://img.shields.io/badge/License-GPLv3-blue?style=for-the-badge&logo=gnu)
 ![Platform](https://img.shields.io/badge/Platform-Linux-orange?style=for-the-badge&logo=linux)
@@ -48,7 +48,7 @@ sudo install-antigravity-ide
 | 🌐 | Fetches the latest version from Antigravity's download page |
 | 📥 | Downloads and extracts the archive |
 | 📁 | Installs to `/opt/antigravity-ide/` |
-| 🔗 | Creates symlink at `/usr/local/bin/antigravity-ide` |
+| 🔗 | Creates symlink at `/usr/bin/antigravity-ide` |
 | 🖥️ | Registers `.desktop` entry and icon for app launchers |
 | 🔒 | Applies SELinux labels automatically (Fedora/RHEL) |
 | ⚡ | Skips download if already on the latest version |
@@ -69,7 +69,7 @@ sudo install-antigravity-ide
 
 ```bash
 sudo rm -rf /opt/antigravity-ide
-sudo rm -f /usr/local/bin/antigravity-ide /usr/local/bin/install-antigravity-ide
+sudo rm -f /usr/bin/antigravity-ide /usr/local/bin/install-antigravity-ide
 sudo rm -f /usr/share/applications/antigravity-ide.desktop
 sudo rm -f /usr/share/icons/hicolor/512x512/apps/antigravity-ide.png
 sudo gtk-update-icon-cache -q /usr/share/icons/hicolor
@@ -92,7 +92,7 @@ sudo update-desktop-database /usr/share/applications
 | Item | Path |
 |---|---|
 | 📁 Application | `/opt/antigravity-ide/` |
-| 🔗 Binary | `/usr/local/bin/antigravity-ide` |
+| 🔗 Binary | `/usr/bin/antigravity-ide` |
 | 🖥️ Desktop Entry | `/usr/share/applications/antigravity-ide.desktop` |
 | 🎨 Icon | `/usr/share/icons/hicolor/512x512/apps/antigravity-ide.png` |
 

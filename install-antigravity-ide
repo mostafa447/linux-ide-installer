@@ -2,13 +2,13 @@
 set -euo pipefail
 
 if [ "$(id -u)" -ne 0 ]; then
-	echo "Run with sudo: sudo update-antigravity-ide" >&2
+	echo "Run with sudo: sudo install-antigravity-ide" >&2
 	exit 1
 fi
 
 download_page="https://antigravity.google/download"
 install_root="/opt/antigravity-ide"
-command_link="/usr/local/bin/antigravity-ide"
+command_link="/usr/bin/antigravity-ide"
 desktop_file="/usr/share/applications/antigravity-ide.desktop"
 icon_file="/usr/share/icons/hicolor/512x512/apps/antigravity-ide.png"
 
